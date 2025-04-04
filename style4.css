@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    /* margin-top:0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: ; */
+    border-radius: 0px;
+  
+}
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr); /* 4 columns for better structure */
+    /* background-color: rgba(46, 46, 46, 0.925); */
+    /* padding: 0px; */
+    grid-gap: 10px;
+    margin-bottom: 0px;
+    border-radius: 0px ;
+
+  /* Adds space between buttons */
+}
+
+div {
+    
+    background-color: white;
+    /* border: 1px solid black; */
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer; /* Makes buttons clickable */
+    border-radius: 5px;
+    border-color: rgb(36, 35, 35);
+}
+
+.calculator div:active {
+    background-color: rgb(216, 213, 213); 
+     /* Click effect */
+  
+}
+.btn{
+    display: grid;
+    border: 3px solid ;
+    border-color: rgba(230, 221, 221, 0.603);
+    border-radius: 1px;
+    width:400px;
+    padding: 30px;
+
+    height: 50px;
+    justify-content: center;
+    margin-left: 0;
+    text-align: center;
+    background-color: hsla(36, 100%, 77%, 0.479);
+   
+
+}
+
+.mybox {
+    width: 300px;
+    margin: auto;
+    /* padding: 20px; */
+
+    /* background-color: rgba(0, 0, 0, 0.699); */
+    border-radius: 10px;
+}
+
+#display {
+    width: 98%;
+    height: 50px;
+    font-size: 24px;
+    /* left: 0; */
+    margin-left: 0px;
+    
+   display: block;
+    text-align: right;
+    justify-content: left;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    /* border-radius: 10px; */
+  }
+
+.container{
+    background-color: rgb(27, 27, 27);
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
